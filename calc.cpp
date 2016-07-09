@@ -4,7 +4,8 @@ int main()
 	int a,b,c,ch;
 	cout<<"enter 2 nos.";
 	cin>>a>>b;
-	
+	cout<<"\n1.add\n2.sub\n3.mul\n4.div";
+	cin>>ch;
     switch(ch)
 	{
 		case 1 : c=a+b;
